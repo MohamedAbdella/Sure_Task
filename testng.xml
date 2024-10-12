@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Employee Management Tests" parallel="false">
+    <test name="API and GUI Tests">
+        <classes>
+            <class name="APITestCases.AddEmployeeTest"/>
+
+            <class name="TestCases.TC02_Fill_EmployeeDataTest"/>
+        </classes>
+    </test>
+</suite>
